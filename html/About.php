@@ -9,7 +9,7 @@
 <body>
     <div id="mySidenav" class="sidenav">
         <?php
-            echo file_get_contents("http://qkrwls5998.github.io/data/list.txt")
+            echo file_get_contents("data/list.txt")
          ?>
     </div>
 
