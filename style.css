@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+
+html{
+	scroll-behavior: smooth;
+}
+:root {
+	--nav-bg-color: #C90005;
+	--nav-font-color: #FFFFFF;
+}
+body {
+/*	display: flex;
+	flex: */
+}
+
+.nav {
+	background-color: var(--nav-bg-color);
+	font-family: 'Righteous', 'sans-serif';
+	/*top: 0;*/
+
+}
+
+main {
+	top: ;
+}
+
+.main-section {
+	height: 100vh;
+	padding-top: 8vh;
+}
+
+.nav-link {
+	color: var(--nav-font-color);
+	vertical-align: bottom;
+	padding: 1.5rem;
+}
