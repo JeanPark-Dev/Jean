@@ -21,9 +21,7 @@ body {
 
 }
 
-main {
-	top: ;
-}
+
 
 .main-section {
 	height: 100vh;
@@ -53,16 +51,45 @@ main {
 	font-size: 6vw;
 }
 
-
+/* about section*/
 
 #about-section {
 	background-color: #CB6600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*flex-wrap: wrap;*/
+
 }
+
+#profile-img {
+	width: 70%;
+	min-width: 16em;
+	border-radius: 50%;
+	margin: 7vw;
+}
+#profile-contents {
+	width: 100%;
+	min-width: 14em;
+	margin: 5vw;
+}
+
+@media (max-width: 769px) {
+	#about-section {
+		flex-wrap: wrap;
+	}
+	#profile-img {
+		width: 50vh;
+	}
+}
+
+/*project section*/
 
 #project-section {
 	background-color: #0D8800;
 }
 
+/*contact section*/
 #contact-section {
 	background-color: #127C9A;
 }
