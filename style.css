@@ -2,19 +2,21 @@
 
 html{
 	scroll-behavior: smooth;
+
 }
 :root {
-	--nav-bg-color: #C90005;
+	--nav-bg-color: #be3144;
 	--nav-font-color: #FFFFFF;
 }
 body {
 /*	display: flex;
 	flex: */
+	font-family: 'Righteous', 'sans-serif';
 }
 
 .nav {
 	background-color: var(--nav-bg-color);
-	font-family: 'Righteous', 'sans-serif';
+	
 	/*top: 0;*/
 
 }
@@ -32,4 +34,35 @@ main {
 	color: var(--nav-font-color);
 	vertical-align: bottom;
 	padding: 1.5rem;
+}
+
+/*welcome section*/
+
+#welcome-section {
+	background-color: #3E494C;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+#welcome-section h1{
+	color: white;
+	font-size: 6vw;
+}
+
+
+
+#about-section {
+	background-color: #CB6600;
+}
+
+#project-section {
+	background-color: #0D8800;
+}
+
+#contact-section {
+	background-color: #127C9A;
 }
