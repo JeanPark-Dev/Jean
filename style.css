@@ -53,6 +53,7 @@ body {
 
 /* about section*/
 
+
 #about-section {
 	background-color: #CB6600;
 	display: flex;
@@ -88,6 +89,12 @@ body {
 #project-section {
 	background-color: #0D8800;
 }
+
+.project-section-card {
+	width: 50%;
+}
+
+
 
 /*contact section*/
 #contact-section {
