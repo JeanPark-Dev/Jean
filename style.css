@@ -42,8 +42,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
-
 }
 
 #welcome-section h1{
@@ -88,10 +86,22 @@ body {
 
 #project-section {
 	background-color: #0D8800;
+
+}
+
+#project-section-contents {
+	display: flex;
+
+
 }
 
 .project-section-card {
-	width: 50%;
+	width: 40rem;
+;
+}
+
+.project-section-card img {
+
 }
 
 
