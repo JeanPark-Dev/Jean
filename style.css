@@ -24,9 +24,9 @@ body {
 
 
 .main-section {
-	height: 100vh;
-	padding-top: 8vh;
-}
+	 height: 100vh;
+	 padding-top: 8vh;
+ }
 
 .nav-link {
 	color: var(--nav-font-color);

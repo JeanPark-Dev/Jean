@@ -5,25 +5,40 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+        <link rel="stylesheet" type="text/css" href="style_test.css">
 
         <title>Hello, world!</title>
     </head>
     <body>
-        <nav id="navbar" class="nav justify-content-end fixed-top shadow-lg" >
-            <a class="nav-link font-weight-bold" href="#welcome-section">Welcome</a>
-            <a class="nav-link font-weight-bold" href="#about-section">About</a>
-            <a class="nav-link font-weight-bold" href="#project-section">Projects</a>
-            <a class="nav-link font-weight-bold" href="#contact-section">Contact</a>
+        <!--<nav id="navbar" class="nav">-->
+            <!--<a class="nav-link" href="#welcome-section">Welcome</a>-->
+            <!--<a class="nav-link" href="#about-section">About</a>-->
+            <!--<a class="nav-link" href="#project-section">Projects</a>-->
+            <!--<a class="nav-link" href="#contact-section">Contact</a>-->
+        <!--</nav>-->
+
+        <nav id="navbar" class="nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#welcome-section">Welcome</a>
+                </li>
+                <li>
+                    <a href="#about-section">About</a>
+                </li>
+                <li>
+                    <a href="#project-section">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-section">Contact</a>
+                </li>
+            </ul>
         </nav>
-        
 
 
         <main>
             <div id="welcome-section" class="main-section">
-
                     <h1 id="welcome-header">Hi I am Jean</h1>
                     <h3>a web developer</h3>
 
@@ -33,32 +48,83 @@
                 <img id="profile-img" src="img/Jean.jpg">
 
                 <div id="profile-contents">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>As recent graduate from University of Canterbury, BSc with Computer Science, I am looking for a career in the Information Technology sector. Highly focused with a comprehensive knowledge of developing the usability of a website and structure of server side design.
+                        Always eager to learn and able to get along with both work col-leagues and senior managers. Currently looking for a suitable graduate developer position.</p>
                 </div>
 
             </div>
 
             <div id="project-section" class="main-section">
-                <h1>Projects involved</h1>
-                <div id="project-section-contents">
-                    <div class="card project-section-card">
-                        <img src="img/Greenbeans.PNG" class="card-img-top project-card-img" >
-                        <div class="card-body">
-                            <p class="card-text">Greenbeans</p>
-                        </div>
-                    </div>
+                <h1 class="projects-section-header">Projects involved</h1>
+                <div id="project-section-contents" class="project-grid">
+                    <!--<div class="card project-section-card">-->
+                        <!--<img src="img/Greenbeans.PNG" class="card-img-top project-card-img" >-->
+                        <!--<div class="card-body">-->
+                            <!--<p class="card-text">Greenbeans</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
 
-                    <div class="card project-section-card">
-                        <img src="img/Greenbeans.PNG" class="card-img-top project-card-img" >
-                        <div class="card-body">
-                            <p class="card-text">Greenbeans</p>
-                        </div>
-                    </div>
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="project project-title"
+                    >
+                        <img
+                            class="project-image"
+                            src="img/Greenbeans.PNG"
+                            alt="project"
+                        />
+                        <p class="project-title">
+                            GreenBeans
+                        </p>
+
+
+                    </a>
+
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="project project-title"
+                    >
+                        <img
+                            class="project-image"
+                            src="img/Greenbeans.PNG"
+                            alt="project"
+                        />
+                        <p class="project-title">
+                            Title Page
+                        </p>
+                    </a>
+
+                    <a
+                            href="#"
+                            target="_blank"
+                            class="project project-title"
+                    >
+                        <img
+                                class="project-image"
+                                src="img/Greenbeans.PNG"
+                                alt="project"
+                        />
+                        <p class="project-title">
+                            Title Page
+                        </p>
+                    </a>
+
+                    <a
+                            href="#"
+                            target="_blank"
+                            class="project project-title"
+                    >
+                        <img
+                                class="project-image"
+                                src="img/Greenbeans.PNG"
+                                alt="project"
+                        />
+                        <p class="project-title">
+                            Title Page
+                        </p>
+                    </a>
                 </div>
             </div>
 
@@ -111,20 +177,5 @@
 
         </main>
 
-
-
-
-
-
-
-
-
-
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
